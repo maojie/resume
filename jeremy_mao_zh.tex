@@ -1,28 +1,27 @@
-\documentclass[11pt, a4paper, noblankpage]{moderncv}
+\documentclass[11pt, a4paper]{moderncv}
 
-% moderncv themes
-%moderncvthem[blue]{classic}  % optional arguments are 'blue' {default}, 'green'
+% moderncv theme.
 \moderncvtheme[green]{classic}
 
-% character encoding
-\usepackage{CJKutf8}
-\usepackage{xunicode, xltxtra}
-\setmainfont[Mapping=tex-text]{宋体}
-\setsansfont[Mapping=tex-text]{宋体}
+% character encoding.
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xeCJK}
+\setmainfont{Helvetica}
+\setCJKmainfont{Adobe Heiti Std}
+\setCJKsansfont{Adobe Heiti Std}
+\setCJKmonofont{Adobe Heiti Std}
 \XeTeXlinebreaklocale "zh"
 \widowpenalty=10000
 
-% adjust the page margins
-\usepackage[scale=0.8]{geometry}
-\recomputelengths  % required when changes are made to page layout lengths
-\CJKtilde
+% adjust the page margins.
+\usepackage[scale=0.75]{geometry}
 
-% Personal information
+% personal information.
 \firstname{毛玉杰}
 \familyname{}
-\title{}  % optional, remove the line if not wanted
-
-\mobile{18621008390}
+\title{}  % optional, remove this line if not wanted.
+\mobile{+86 18621008390}
 \email{maojie0924@gmail.com}
 
 \nopagenumbers{}
@@ -33,11 +32,30 @@
 
 \section{教育背景}
 \cventry{2007-2011}{华东师范大学}{软件学院}{软件工程}{}{}
+\cventry{}{平均绩点: 3.3/4.0}{年级排名: 15\%}{多次获得学校奖学金}{}{}
+
+\section{实习经历}
+\cventry{2010}{英特尔开发者关系}{}{}{}{xxx}
+\cventry{2011}{英特尔软件优化技术中心}{}{}{}{xxx}
 
 \section{工作经历}
+\cventry{2011-至今}{英特尔}{}{}{}{}
+
+\section{项目经历}
+\cventry{}
+{}{}{}{}{}
 
 \section{荣誉奖励}
+\cventry{2008}{正保教育杯程序设计赛三等奖}{}{}{}{}
+\cventry{2011}{英特尔年度最佳实习生}{}{}{}{}
+\cventry{2012, 2013}{英特尔部门贡献奖 x 4}{}{}{}{}
+\cventry{2013}{英特尔年度最佳员工提名}{}{}{}{}
+\cventry{2014}{英特尔最高级别集团贡献奖}{}{}{}{}
 
 \section{个人技能}
+\cventry{编程语言}{C/C++ > Java > Python}{}{}{}{}
+\cventry{操作系统}{Linux == Mac > Windows, Android > iOS}{}{}{}{}
+\cventry{开源项目}{Chromium, WebRTC, WebKit}{}{}{}{}
+\cventry{英语水平}{通过CET-6, 具备良好的听说读写能力}{}{}{}{}
 
 \end{document}

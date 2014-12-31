@@ -1,17 +1,16 @@
-\documentclass[11pt, a4paper, noblackpage]{moderncv}
+\documentclass[11pt, a4paper]{moderncv}
 
-% moderncv themes
-%moderncvthem[blue]{classic}  % optional arguments are 'blue' {default}, 'green'
+% moderncv theme.
 \moderncvtheme[green]{classic}
 
-% character encoding
+% character encoding.
 \usepackage[utf8]{inputenc}
 
-% adjust the page margins
-\usepackage[scale=0.8]{geometry}
+% adjust the page margins.
+\usepackage[scale=0.75]{geometry}
 \recomputelengths  % required when changes are made to page layout lengths
 
-% personal data
+% personal information.
 \firstname{Jeremy}
 \familyname{Mao}
 \title{Curriculum Vitae}
@@ -26,11 +25,45 @@
 
 \section{Education}
 \cventry{2007-2011}{East China Normal University}{Software Institute}{Software Engineering}{}{}
+\cventry{}{GPA: 3.3 / 4.0}{Grade Rank: 15\%}{Awarded scholarships several times}{}{}
+
+\section{Internship}
+\cventry{2010}{Summer Internship at Intel Developer Relations Division}{}{}{}{Designed and implemented the High Availability plugin to manage the virtual machines in the cloud cluster}
+\cventry{2011}{Internship at Intel Software Optimization Technology Center}{}{}{}{Wrote an application to analyze the Android APIs usage in different Android apps}
 
 \section{Work Experience}
+\cventry{2011-present}{Software Engineer at Intel Web Technology Organization}{}{}{}{Focus on the Google WebRTC technology in Chromium Browser especially on Android, designed and implemented several key features and optimizations to speed up video streaming on different Intel platforms}
+
+\section{Project Experience}
+\cventry{2014}{}{}{}{}
+{
+}
+
+\vspace*{0.2\baselineskip}
+\cventry{2010}{}{}{}{}
+{
+}
+
+\vspace*{0.2\baselineskip}
+\cventry{}{}{}{}{}
+{
+}
 
 \section{Awards}
+\cventry{2008}{National ITAT Educational Programming Cup Third Prize}{}{}{}{}
+\cventry{2011}{Intel Excellent Intern of Year}{}{}{}{}
+\cventry{2012, 2013}{Intel Division Recognition Award x 4}{}{}{}{}
+\cventry{2013}{Nominated as Intel Employee of the Year}{}{}{}{}
+\cventry{2014}{Intel Group Recognition Award}{}{}{}{}
 
 \section{Skills}
+\cventry{Languages}{C/C++ > Java > Python}{}{}{}{}
+\cventry{OS}{Linux, Mac > Windows, Android > iOS}{}{}{}{}
+\cventry{Open Source}{Chromium, WebRTC, WebKit}{}{}{}{}
+\cventry{English}{Pass CET-6, fluent in spoken and written English}{}{}{}{}
+
+\section{Community}
+\cventry{Github}{\url{github.com/maojie}}{}{}{}{}
+\cventry{HackerRank}{\url{hackerrank.com/jeremy_mao}}{}{}{}{}
 
 \end{document}
